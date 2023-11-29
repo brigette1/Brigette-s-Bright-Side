@@ -1,18 +1,36 @@
+
 .header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.left {
+    color: #f8906a;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.right {
     display: flex;
     justify-content: space-between;
 }
 
-.left,
-.right {
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.left {
-    color: #f8906a
-}
-
 a {
     text-decoration: none;
-    color: #656363
+    color: #656363;
+    padding: 20px;
+}
+
+.header,
+.main {
+    background-color: #fff4ac;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
 }
