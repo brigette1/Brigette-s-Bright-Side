@@ -1,4 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .left,
 .right {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left {
+    color: #f8906a
+}
+
+a {
+    text-decoration: none;
+    color: #656363
 }
