@@ -34,7 +34,7 @@ a {
 
 .header,
 .main {
-    background-color: #fffbc6;
+    background-color: #fffed5;
 
 }
 
@@ -42,6 +42,7 @@ a {
     display: flex;
     flex-direction: row;
     padding-top: 40px;
+    justify-content: center;
 }
 
 .intro {
@@ -49,10 +50,15 @@ a {
     font-weight: 600;
     color: #ff8a83;
     display: flex;
+    margin-top: 100px;
+}
+
+#learn {
+    margin-top: 100px;
 }
 
 .about {
-    margin-top: 0;
+    margin-top: 25px;
 }
 
 img {
@@ -82,15 +88,13 @@ img {
 
 .l,
 .left,
-.why,
-.quote {
+.why {
     margin-left: 70px;
 }
 
 .r, 
 .right,
-.why,
-.quote {
+.why {
     margin-right: 70px;
 }
 
@@ -99,10 +103,10 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    margin-bottom: 20px
 }
 
 .why {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,6 +114,10 @@ img {
 
 .items {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 .expert, 
@@ -117,10 +125,57 @@ img {
 .versatile {
     display: flex;
     flex-wrap: wrap;
-    width: 300px
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
+.text {
+    text-align: center;
+}
 
+.hook {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 50px;
+    text-align: center;
+}
 
+#ex,
+#en,
+#ver {
+    border-radius: 25px;
+    border: 3px solid #ff914d;
+}
 
+.quote {
+    padding: 80px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #fffed5;
 
+}
+
+.words {
+    font-size: 33px;
+    font-style: italic;
+    text-align: center;
+}
+
+.author {
+    padding: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#logo {
+    height: 150px; 
+    width: auto;
+}
